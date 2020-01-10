@@ -6,7 +6,8 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-size: 100% 40%; 
+  background-image: url("img/fon.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -15,6 +16,10 @@ body {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+.avatar {
+  border-radius: 20px;
 }
 
 .page-header {
@@ -47,12 +52,14 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 0px;
+  text-align: center;
+  
 }
 
 .hero-image .container {
   max-width: 1408px;
-  text-align: center;
+  
 }
 
 .heading {
@@ -191,4 +198,25 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.skills dd {
+  margin: 0;
+  margin-bottom: 10px;
+
+  background-color: #9090e8;
+}
+
+.skills-level {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
+}
+.skills-level-veryok {
+  background-color: #f09f05
 }
